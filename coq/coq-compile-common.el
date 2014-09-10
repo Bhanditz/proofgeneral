@@ -270,7 +270,7 @@ forms of include options ('-I' and '-R'). An element can be
   - A list of the form '(rec dir path)' (where dir and path are
     strings) specifying a directory to be recursively mapped to the
     logical path 'path' ('-R dir -as path').
-  - A list of the form '(norec dir path)', specifying a directory
+  - A list of the form '(nonrec dir path)', specifying a directory
     to be mapped to the logical path 'path' ('-I dir -as path').
 
 For convenience the symbol 'rec' can be omitted and entries of
